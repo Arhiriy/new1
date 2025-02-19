@@ -1,9 +1,12 @@
-import Image from "next/image";
+import { Container, Title } from "@/components/shared";
+
 
 export default function Home() {
   return (
-    <div>
-      <h1>Главная</h1>
-    </div>
+    <>
+      <Container>
+        <Title text="jyg"/>
+        </Container> 
+    </>
   );
 }
