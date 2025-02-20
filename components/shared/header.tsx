@@ -30,10 +30,6 @@ export const Header: React.FC<Props> = ({ className }) => {
                     <Button variant="outline" className='gap-2'><User size={16} />Профиль</Button>
                     <Button variant="default" className='gap-2'> 520 ₽ |<ShoppingCart size={16} />3</Button>
                 </div>
-
-
-
-
             </Container>
         </header>
     );

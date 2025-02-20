@@ -1,3 +1,4 @@
+// Здесь можно выбрать да и нет (в виде галочки)
 "use client"
 
 import * as React from "react"
