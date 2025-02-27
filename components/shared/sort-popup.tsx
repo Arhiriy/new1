@@ -10,7 +10,7 @@ export const SortPopup: React.FC<Props> = ({ className }) =>  {
       <div className="flex items-center gap-2">
         <div><ArrowDownUp size={16}/></div>
         <div><h1 className="font-extrabold">Сортировка:</h1></div>
-        <div><p className="text-orange-500 font-extrabold">рейтингу</p></div>
+        <div><p className="text-primary font-extrabold">рейтингу</p></div>
       </div>
     </>
   );
