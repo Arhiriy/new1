@@ -25,39 +25,69 @@ export const Filters: React.FC<Props> = ({className}) => {
                         <Input type="number" min={0} max={5000} placeholder="0" />
                     </div>
                 </div>
-                <CheckboxFiltersGroup
-                    className="mt-5"
-                    title="Ингредиенты"
-                    limit={6}
-                    defaultItems={[
-                        {
-                            text: 'Сырный соус',
-                            value: '1',
-                        },
-                        {
-                            text: 'Моццарелла',
-                            value: '2',
-                        },
-                        {
-                            text: 'Чеснок',
-                            value: '3',
-                        },
-                    ]}
-                    items={[
-                        {
-                            text: 'Сырный соус',
-                            value: '1',
-                        },
-                        {
-                            text: 'Моццарелла',
-                            value: '2',
-                        },
-                        {
-                            text: 'Томаты',
-                            value: '6',
-                        },
-                    ]}
-                />
+                <div>
+                    <CheckboxFiltersGroup
+                        className="mt-5"
+                        title="Ингредиенты"
+                        limit={6}
+                        defaultItems={[
+                            {
+                                text: 'Сырный соус',
+                                value: '1',
+                            },
+                            {
+                                text: 'Моццарелла',
+                                value: '2',
+                            },
+                            {
+                                text: 'Чеснок',
+                                value: '3',
+                            },
+                            {
+                                text: 'Солённые огурчики',
+                                value: '4',
+                            },
+                            {
+                                text: 'Красный лук',
+                                value: '5',
+                            },
+                            {
+                                text: 'Томаты',
+                                value: '6',
+                            },
+                        ]}
+                        items={[
+                            {
+                                text: 'Сырный соус',
+                                value: '1',
+                            },
+                            {
+                                text: 'Моццарелла',
+                                value: '2',
+                            },
+                            {
+                                text: 'Чеснок',
+                                value: '3',
+                            },
+                            {
+                                text: 'Солённые огурчики',
+                                value: '4',
+                            },
+                            {
+                                text: 'Красный лук',
+                                value: '5',
+                            },
+                            {
+                                text: 'Томаты',
+                                value: '6',
+                            },
+                        ]}
+                    />
+                </div>
+                <div className="mt-5 border-y border-y-neutral-100 py-6 pb-7">
+                    <h1 className="font-bold mb-3">Тип теста:</h1>
+
+                </div>
             </div>
         </>
     );

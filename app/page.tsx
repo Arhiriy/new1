@@ -9,9 +9,21 @@ export default function Home() {
         <Title text="Все пиццы" size="lg" className="font-extrabold"/>
       </Container> 
       <TopBar/>
-      <Container>
-        <Filters/> 
+      <div>
+      <Container className="mt-10 pg-14">
+        <div className="flex gap-[80px]">
+          <div className="w-[250px]">
+            <Filters/>
+          </div>
+
+          <div className="flex-1">
+            <div>
+              
+            </div>
+          </div>
+        </div>
       </Container>
+      </div>
     </>
   );
 }
