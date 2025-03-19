@@ -1,4 +1,4 @@
-import { Input } from "../ui";
+import { Button, Input } from "../ui";
 import { CheckboxFiltersGroup } from "./checkbox-filters-group";
 import { FilterCheckbox } from "./filter-checkbox";
 import { Title } from "./title";
@@ -86,7 +86,10 @@ export const Filters: React.FC<Props> = ({className}) => {
                 </div>
                 <div className="mt-5 border-y border-y-neutral-100 py-6 pb-7">
                     <h1 className="font-bold mb-3">Тип теста:</h1>
-
+                    
+                </div>
+                <div>
+                    <Button variant="default" className='gap-2'>Применить</Button>
                 </div>
             </div>
         </>
